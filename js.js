@@ -40,3 +40,9 @@ const chngBg = () => {
 
 
 btn.addEventListener('click', chngBg);
+
+const loader = document.querySelector(".preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none"
+})
